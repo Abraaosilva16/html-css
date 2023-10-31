@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: fantasy;
+    font-size: 20px;
+  background-image: image(20px);
+}
+h1{
+    text-align: center;
+    color: maroon;
+    background-color: darkgoldenrod;
+}
+
+h2{
+    text-align: center;
+    color: darkred;
+}
+p{
+    text-align:center;
+}
