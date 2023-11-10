@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+          
+        }
+        table{
+            
+            width: 500px;
+            border-collapse: collapse;
+           
+        }
+
+       
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+           
+        }
+        td.pop{
+            text-align: right;
+            background-color: cornflowerblue;
+            font-weight: bolder;
+        }
+
+        td.est{
+            background-color: slategrey;
+        }
+
+        td{
+            text-align: center;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+ <h1>Uso de Tabelas Grandes</h1> 
+ 
+ <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+ -->
+
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>População</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td class="est">São Paulo</td>
+                    <td class="pop">44 169 350</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Minas Gerais</td>
+                    <td class="pop">20 777 672</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Rio de Janeiro</td>
+                    <td class="pop"> 16 497 395</td>
+                </tr>
+                <tr>
+                    <td class="est"> Sergipe</td>
+                    <td class="pop"> 2 227 294</td>
+    
+                </tr>
+    
+                <tr>
+                    <td class="est"> Santa Catarina</td>
+                    <td class="pop"> 6 734 568</td>
+                </tr>
+    
+                <tr>
+                    <td class="est"> Rio Grande do Sul</td>
+                    <td class="pop"> 11 228 091</td>
+                </tr>
+    
+                <tr>
+                    <td class="est"> Rio Grande do Norte</td>
+                    <td class="pop"> 3 419 550</td>
+                </tr>
+    
+                <tr>
+                    <td class="est"> Mato Grosso</td>
+                    <td class="pop">3 236 578</td>
+                </tr>
+    
+                <tr>
+                    <td class="est"> Goiás</td>
+                    <td class="pop"> 6 551 322</td>
+                </tr>
+    
+                <tr>
+                    <td class="est"> Ceará</td>
+                    <td class="pop"> 8 867 448</td>
+                </tr>
+    
+    
+                <tr>
+                    <td class="est"> Bahia</td>
+                    <td class="pop"> 15 150 143</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Alagoas </td>
+                    <td class="pop">3 327 551 </td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Amapá</td>
+                    <td class="pop">756 500</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">	Espírito Santo</td>
+                    <td class="pop">3 894 899</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Paraíba</td>
+                    <td class="pop">3 950 359</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Pernambuco</td>
+                    <td class="pop">9 297 861</td>
+                </tr>
+    
+                <tr>
+                    <td class="est">Roraima</td>
+                    <td class="pop">	28 930 000</td>
+                </tr>
+            </tbody>
+    
+            <tfoot>
+                <tr>
+                    <th>Total de Habitantes</th>
+                    <td class="pop">0000</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+</body>
+</html>
